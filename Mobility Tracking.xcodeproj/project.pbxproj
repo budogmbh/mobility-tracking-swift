@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BF1B48285DD80800253E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B47285DD80800253E0E /* AppDelegate.swift */; };
+		B6BF1B4A285DD80800253E0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B49285DD80800253E0E /* SceneDelegate.swift */; };
+		B6BF1B4C285DD80800253E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B4B285DD80800253E0E /* ViewController.swift */; };
+		B6BF1B4F285DD80800253E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BF1B4D285DD80800253E0E /* Main.storyboard */; };
+		B6BF1B51285DD80900253E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BF1B50285DD80900253E0E /* Assets.xcassets */; };
+		B6BF1B54285DD80A00253E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BF1B52285DD80A00253E0E /* LaunchScreen.storyboard */; };
+		B6BF1B6B285DD84900253E0E /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B5C285DD84900253E0E /* Storage.swift */; };
+		B6BF1B6C285DD84900253E0E /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B5D285DD84900253E0E /* Permission.swift */; };
+		B6BF1B6D285DD84900253E0E /* MobilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B5E285DD84900253E0E /* MobilityManager.swift */; };
+		B6BF1B6E285DD84900253E0E /* ContextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B5F285DD84900253E0E /* ContextManager.swift */; };
+		B6BF1B6F285DD84900253E0E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B6BF1B60285DD84900253E0E /* LICENSE */; };
+		B6BF1B70285DD84900253E0E /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B61285DD84900253E0E /* DeviceManager.swift */; };
+		B6BF1B71285DD84900253E0E /* CarMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B62285DD84900253E0E /* CarMode.swift */; };
+		B6BF1B72285DD84900253E0E /* TrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B63285DD84900253E0E /* TrackingManager.swift */; };
+		B6BF1B73285DD84900253E0E /* KeepAlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B64285DD84900253E0E /* KeepAlive.swift */; };
+		B6BF1B74285DD84900253E0E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B66285DD84900253E0E /* Location.swift */; };
+		B6BF1B75285DD84900253E0E /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B67285DD84900253E0E /* Tracking.swift */; };
+		B6BF1B76285DD84900253E0E /* Mobility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B68285DD84900253E0E /* Mobility.swift */; };
+		B6BF1B77285DD84900253E0E /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B69285DD84900253E0E /* Visit.swift */; };
+		B6BF1B78285DD84900253E0E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF1B6A285DD84900253E0E /* Device.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6BF1B44285DD80800253E0E /* Mobility Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobility Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BF1B47285DD80800253E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6BF1B49285DD80800253E0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6BF1B4B285DD80800253E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6BF1B4E285DD80800253E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6BF1B50285DD80900253E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6BF1B53285DD80A00253E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6BF1B55285DD80A00253E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BF1B5C285DD84900253E0E /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B6BF1B5D285DD84900253E0E /* Permission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		B6BF1B5E285DD84900253E0E /* MobilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilityManager.swift; sourceTree = "<group>"; };
+		B6BF1B5F285DD84900253E0E /* ContextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextManager.swift; sourceTree = "<group>"; };
+		B6BF1B60285DD84900253E0E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B6BF1B61285DD84900253E0E /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		B6BF1B62285DD84900253E0E /* CarMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarMode.swift; sourceTree = "<group>"; };
+		B6BF1B63285DD84900253E0E /* TrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingManager.swift; sourceTree = "<group>"; };
+		B6BF1B64285DD84900253E0E /* KeepAlive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepAlive.swift; sourceTree = "<group>"; };
+		B6BF1B66285DD84900253E0E /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B6BF1B67285DD84900253E0E /* Tracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
+		B6BF1B68285DD84900253E0E /* Mobility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mobility.swift; sourceTree = "<group>"; };
+		B6BF1B69285DD84900253E0E /* Visit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		B6BF1B6A285DD84900253E0E /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BF1B41285DD80800253E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BF1B3B285DD80800253E0E = {
+			isa = PBXGroup;
+			children = (
+				B6BF1B46285DD80800253E0E /* Mobility Tracking */,
+				B6BF1B45285DD80800253E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BF1B45285DD80800253E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF1B44285DD80800253E0E /* Mobility Tracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BF1B46285DD80800253E0E /* Mobility Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF1B47285DD80800253E0E /* AppDelegate.swift */,
+				B6BF1B49285DD80800253E0E /* SceneDelegate.swift */,
+				B6BF1B4B285DD80800253E0E /* ViewController.swift */,
+				B6BF1B4D285DD80800253E0E /* Main.storyboard */,
+				B6BF1B50285DD80900253E0E /* Assets.xcassets */,
+				B6BF1B52285DD80A00253E0E /* LaunchScreen.storyboard */,
+				B6BF1B5B285DD84900253E0E /* Tracker */,
+				B6BF1B55285DD80A00253E0E /* Info.plist */,
+			);
+			path = "Mobility Tracking";
+			sourceTree = "<group>";
+		};
+		B6BF1B5B285DD84900253E0E /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF1B5C285DD84900253E0E /* Storage.swift */,
+				B6BF1B5D285DD84900253E0E /* Permission.swift */,
+				B6BF1B5E285DD84900253E0E /* MobilityManager.swift */,
+				B6BF1B5F285DD84900253E0E /* ContextManager.swift */,
+				B6BF1B60285DD84900253E0E /* LICENSE */,
+				B6BF1B61285DD84900253E0E /* DeviceManager.swift */,
+				B6BF1B62285DD84900253E0E /* CarMode.swift */,
+				B6BF1B63285DD84900253E0E /* TrackingManager.swift */,
+				B6BF1B64285DD84900253E0E /* KeepAlive.swift */,
+				B6BF1B65285DD84900253E0E /* model */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		B6BF1B65285DD84900253E0E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF1B66285DD84900253E0E /* Location.swift */,
+				B6BF1B67285DD84900253E0E /* Tracking.swift */,
+				B6BF1B68285DD84900253E0E /* Mobility.swift */,
+				B6BF1B69285DD84900253E0E /* Visit.swift */,
+				B6BF1B6A285DD84900253E0E /* Device.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BF1B43285DD80800253E0E /* Mobility Tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BF1B58285DD80A00253E0E /* Build configuration list for PBXNativeTarget "Mobility Tracking" */;
+			buildPhases = (
+				B6BF1B40285DD80800253E0E /* Sources */,
+				B6BF1B41285DD80800253E0E /* Frameworks */,
+				B6BF1B42285DD80800253E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobility Tracking";
+			productName = "Mobility Tracking";
+			productReference = B6BF1B44285DD80800253E0E /* Mobility Tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BF1B3C285DD80800253E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B6BF1B43285DD80800253E0E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B6BF1B3F285DD80800253E0E /* Build configuration list for PBXProject "Mobility Tracking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BF1B3B285DD80800253E0E;
+			productRefGroup = B6BF1B45285DD80800253E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BF1B43285DD80800253E0E /* Mobility Tracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BF1B42285DD80800253E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF1B54285DD80A00253E0E /* LaunchScreen.storyboard in Resources */,
+				B6BF1B51285DD80900253E0E /* Assets.xcassets in Resources */,
+				B6BF1B6F285DD84900253E0E /* LICENSE in Resources */,
+				B6BF1B4F285DD80800253E0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BF1B40285DD80800253E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF1B6E285DD84900253E0E /* ContextManager.swift in Sources */,
+				B6BF1B70285DD84900253E0E /* DeviceManager.swift in Sources */,
+				B6BF1B6D285DD84900253E0E /* MobilityManager.swift in Sources */,
+				B6BF1B4C285DD80800253E0E /* ViewController.swift in Sources */,
+				B6BF1B72285DD84900253E0E /* TrackingManager.swift in Sources */,
+				B6BF1B75285DD84900253E0E /* Tracking.swift in Sources */,
+				B6BF1B6B285DD84900253E0E /* Storage.swift in Sources */,
+				B6BF1B78285DD84900253E0E /* Device.swift in Sources */,
+				B6BF1B73285DD84900253E0E /* KeepAlive.swift in Sources */,
+				B6BF1B77285DD84900253E0E /* Visit.swift in Sources */,
+				B6BF1B48285DD80800253E0E /* AppDelegate.swift in Sources */,
+				B6BF1B4A285DD80800253E0E /* SceneDelegate.swift in Sources */,
+				B6BF1B76285DD84900253E0E /* Mobility.swift in Sources */,
+				B6BF1B6C285DD84900253E0E /* Permission.swift in Sources */,
+				B6BF1B74285DD84900253E0E /* Location.swift in Sources */,
+				B6BF1B71285DD84900253E0E /* CarMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6BF1B4D285DD80800253E0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BF1B4E285DD80800253E0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6BF1B52285DD80A00253E0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BF1B53285DD80A00253E0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BF1B56285DD80A00253E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6BF1B57285DD80A00253E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BF1B59285DD80A00253E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3BCV9498Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobility Tracking/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.budo.example.mobility-tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6BF1B5A285DD80A00253E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3BCV9498Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobility Tracking/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Need the location data to run the Mobility Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.budo.example.mobility-tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BF1B3F285DD80800253E0E /* Build configuration list for PBXProject "Mobility Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF1B56285DD80A00253E0E /* Debug */,
+				B6BF1B57285DD80A00253E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BF1B58285DD80A00253E0E /* Build configuration list for PBXNativeTarget "Mobility Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF1B59285DD80A00253E0E /* Debug */,
+				B6BF1B5A285DD80A00253E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BF1B3C285DD80800253E0E /* Project object */;
+}
