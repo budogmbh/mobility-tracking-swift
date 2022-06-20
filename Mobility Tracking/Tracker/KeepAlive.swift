@@ -106,14 +106,14 @@ class KeepAlive: NSObject, CLLocationManagerDelegate {
     
     private func setupTimer() {
         timer?.invalidate()
-        timer = Timer(timeInterval: 1.0, repeats: true, block: { (timer) in
+        timer = Timer(timeInterval: 2.0, repeats: true, block: { (timer) in
             let remainingTime = UIApplication.shared.backgroundTimeRemaining
             self.dispatchQueue.async {
                 if remainingTime < 20.0 {
                   if !self.updatingLocation {
                     self.updatingLocation = true
                     self.locationManager.startUpdatingLocation()
-                      self.locationManager.requestLocation()
+                    self.locationManager.requestLocation()
                   }
                }
             }
@@ -125,22 +125,11 @@ class KeepAlive: NSObject, CLLocationManagerDelegate {
     // Mark - CLLocationManagerDelegate
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let remainingTime = UIApplication.shared.backgroundTimeRemaining
-        
-//        print("locationManager didUpdateLocations", isKeepingAlive, updatingLocation, remainingTime)
         if updatingLocation {
-            dispatchQueue.async {
-                if remainingTime > 100.0 {
-                    self.startBackgroundTask()
-                    self.locationManager.stopUpdatingLocation()
-                    self.updatingLocation = false
-                } else {
-                    self.locationManager.stopUpdatingLocation()
-                    self.locationManager.startUpdatingLocation()
-                    self.locationManager.requestLocation()
-                }
-                
-            }
+            self.updatingLocation = false
+            self.startBackgroundTask()
+            usleep(2000)
+            self.locationManager.stopUpdatingLocation()
         }
     }
     
